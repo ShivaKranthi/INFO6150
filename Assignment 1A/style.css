@@ -11,9 +11,15 @@ table, th, td {
   }
 
   #containerBanner{
-      width: 80%;
+      width: 90%;
       margin-left: auto;
       margin-right: auto;
+      text-align: center;
+
+  }
+  .shop{
+    display:flex;
+    justify-content: center;
   }
   
   #containerform{
