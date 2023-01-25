@@ -1,0 +1,118 @@
+.row-image-gallery  {
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+  
+  .thumb-box {
+    display:flex;
+    margin:0 15px;
+    position:relative;
+    width: 25%;
+
+  }
+  
+  @media screen and (max-width: 992px) {
+    .row-image-gallery  {
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+      }
+    .thumb-box {
+        display:flex;
+        margin:0 15px;
+        position:relative;
+        width: 80%;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .row-image-gallery  {
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+      }
+    .thumb-box {
+        margin:0 15px;
+        position:relative;
+        width: 400px;
+      }
+
+  }
+
+  
+  .thumb-box a {
+    padding:0;
+    position: relative;
+      width: 100%;
+      height: 100%;
+    z-index:9997;
+    text-decoration: none;
+  }
+  
+  .thumb-box img {
+   
+      width:100%;
+      height:280px;
+      float:left;
+    }
+  
+  .overlay-box {
+    position:absolute;
+    bottom:0;
+    width:90%;
+    z-index:9998;
+    left:0;
+    padding:5%;
+    background-image: linear-gradient(to bottom, transparent, rgba(25, 5, 80, 0.75));
+  }
+  
+  .meta {
+    font-size:14px;
+    display:block;
+    color: rgba(25, 5, 80, 0.75);
+    font-weight:500;
+
+  }
+  
+  .main-title {
+    font-size:16px;
+    display:block;
+    font-weight:700;
+    text-shadow:0 0 1px rgba(25, 5, 80, 0.75);
+    color: rgba(25, 5, 80, 0.75);
+
+  }
+  
+  .description {
+    color:#ccc;
+    font-size:13px;
+    margin-top:5px; 
+    display:block;
+    color: #ccc;
+      max-height: 0;
+      line-height: 18px;
+      overflow: hidden;
+      opacity: 0;
+      transition: opacity 0.4s ease-out, max-height 0.4s ease-out, margin 0.4s;
+  }
+
+  .thumb-box:hover {
+
+    transform: scale(1.2);
+    transition: 0.5s;
+  }  
+  .thumb-box a:hover .description {
+      opacity:1;
+          max-height: 100px;
+          margin-top: 5px;
+          transition: opacity 0.4s ease-out, max-height 0.9s ease-out
+  }
+  
+  .thumb-box a:hover .overlay-box {
+    background-image: linear-gradient(to bottom, transparent, rgba(25, 5, 80, 0.75));
+  
+  }
