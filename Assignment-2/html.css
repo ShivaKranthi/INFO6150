@@ -1,0 +1,212 @@
+.bg-purple {
+    background-color: #6103EE !important;
+}
+
+.color-purple {
+    color: #6103EE !important;
+}
+.color-white {
+    color: white !important;
+}
+
+.float-right {
+    float: right;
+}
+.height-20 {
+    height: 20%;
+}
+
+.font-medium {
+    font-size: medium;
+}
+
+.font-large {
+    font-size: large;
+}
+
+.font-larger {
+    font-size: larger;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.button-theme {
+    background-color: black !important;
+    color: #fff !important;
+    border: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+    min-height: 30px !important;
+    min-width: 120px !important;
+  }
+
+  .button-theme:hover {
+    transition: 0.9s;
+    background-color:#002ead !important;
+}
+
+.a-tag {
+    color: white !important;
+    text-decoration: none !important ;
+}
+.skills-container {
+    width: 80%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .skills-bar {
+    text-align: right; /* Right-align text */
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    color: white; 
+    /*White text color */
+  }
+  
+  .fill-90 {
+    width: 90%;
+} /* Green */
+  .bg-green {background-color: #04AA6D !important;}
+  
+  .fill-80 {width: 80%} 
+  .bg-blue {background-color: #1c045e !important;}
+
+  .bg-pink1 {background-color: #6b1571 !important;}
+  .bg-orange {background-color: #b44408 !important;}
+
+  .fill-75 {width: 75%} 
+  .fill-70 {width: 70%} 
+  
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  footer {
+    text-align: center;
+    padding: 1%;
+    color: white;
+  }
+
+  /* home-image */
+
+  .home-row, .row-image-gallery {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-image {
+    width: 80%;
+    height: 90%;
+  }
+
+  .profile-image {
+    width: 80%;
+  }
+
+
+  #aboutme-left {
+    width: 50%;
+  }
+
+  #aboutme-right {
+    width: 50%;
+  }
+  .col-count-2 {
+    column-count: 2;
+    column-rule: 0.5px solid lightgray;
+
+
+  }
+  
+@media screen and (max-width: 992px) {
+    
+  .home-row, .row-image-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+  .home-image {
+    width: 100%;
+  }
+  .profile-image {
+    width: 100%;
+  }
+
+  #aboutme-left {
+    width: 100%;
+  }
+
+  #aboutme-right {
+    width: 100%;
+  }
+ 
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-count-2 {
+        column-count: 1;
+    
+      }
+   
+  .home-image {
+    width: 100%;
+  }
+  .profile-image {
+    width: 100%;
+  }
+  #aboutme-left {
+    width: 100%;
+  }
+
+  #aboutme-right {
+    width: 100%;
+  }
+ 
+}
+
+
+       
+        
+      /* row and column decoration */
+      .row {
+          margin: 0px -18px;
+          padding: 8px;
+      }
+        
+      .row > .column {
+          padding: 6px;
+      }
+        
+      .column {
+          float: left;
+          width: 25%;
+      }
+        
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+        
+      /* content decoration */
+      .content {
+          background-color: white;
+          padding: 10px;
+          border: 1px solid gray;
+      }
+        
+      /* window size 850 width set */
+      @media screen and (max-width: 850px) {
+          .column {
+              width: 50%;
+          }
+      }
+    
+      /* window size 400 width set */
+      @media screen and (max-width: 400px) {
+          .column {
+              width: 100%;
+          }
+      }
