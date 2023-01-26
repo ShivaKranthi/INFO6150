@@ -1,9 +1,9 @@
 .bg-purple {
-    background-color: #6103EE !important;
+    background-color: #ee5d03 !important;
 }
 
 .color-purple {
-    color: #6103EE !important;
+    color: #0332ee !important;
 }
 .color-white {
     color: white !important;
@@ -75,6 +75,7 @@
   .bg-blue {background-color: #1c045e !important;}
 
   .bg-pink1 {background-color: #6b1571 !important;}
+  .bg-red{background-color: #0371ee !important;}
   .bg-orange {background-color: #b44408 !important;}
 
   .fill-75 {width: 75%} 
