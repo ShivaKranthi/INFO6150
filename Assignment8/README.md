@@ -16,7 +16,7 @@ Parameters: a. email
             b. password 
             c. full name 
 
-2. POST - /user/edit \
+2. PUT - /user/edit \
 Desc: To update user's fullname or password on logging in. Validations for correct email or password. \
 Parameters: a. email
             b. new_password 
