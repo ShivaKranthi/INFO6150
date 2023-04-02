@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-weight: 400;
+  font-family: sans-serif;
+  background: rgb(214, 124, 221);
+  background: linear-gradient(90deg, rgb(36, 0, 66) 0%, rgb(89, 43, 146) 51%, rgb(163, 113, 208) 100%);
+  margin-top: -170px;
+}
+
+
+
+#success {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(92, 205, 198);
+  border-radius: 20px;
+  background-color: rgb(190, 224, 39);
+  font-weight: bolder;
+}
+
+.panel1 {
+  width: 100%;
+  display: flex;
+  margin-left: 160%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.panel2 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(30, 235, 166);
+  border-radius: 20px;
+  background-color: rgb(235, 122, 30);
+}
+
+.panel3 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(233, 143, 234);
+  border-radius: 20px;
+  background-color: rgb(65, 171, 217);
+}
+
+
+.contactdetails1 {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(227, 153, 231);
+  border-radius: 20px;
+  background-color: rgb(65, 173, 216);
+}
+
+.contactdetails5 {
+  width: 46%;
+  margin-left: 27%;
+  background-color: rgb(199, 130, 219);
+  border-radius: 20px;
+  background-color: rgb(83, 206, 227);
+  justify-content: center
+}
+
+.contactdetails7 {
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 20px;
+  background-color: rgb(66, 169, 207);
+  justify-content: center
+}
+
+.contactdetails {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  background-color: rgb(30, 235, 166);
+  border-radius: 20px;
+  background-color: rgb(30, 235, 166);
+  font-weight: bolder;
+}
+
+.contactdetails6 {
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  background-color: rgb(30, 235, 166);
+  border-radius: 20px;
+  background-color: rgb(30, 235, 166);
+  font-weight: bolder;
+}
+
+.contactdetails4 {
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  background-color: rgb(30, 235, 166);
+  border-radius: 20px;
+  background-color: rgb(30, 235, 166);
+  font-weight: bolder;
+}
