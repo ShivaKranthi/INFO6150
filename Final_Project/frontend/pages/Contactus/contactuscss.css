@@ -1,0 +1,135 @@
+
+
+.contactUs {
+  position: relative;
+  top: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 130px;
+}
+.headerContact {
+  position: relative;
+  display: inline-block;
+}
+.headerContact .text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 30%;
+  font-size: 50px;
+  font-weight: 1000;
+  padding:100px;
+}
+.imageContact {
+  height: 240px;
+  width: 100%;
+  filter: grayscale(40%);
+}
+.card-contact {
+  display: flex;
+  box-shadow: 0px 0px 3px 0px rgb(8, 188, 188);
+  transition: 0.3s;
+  border: 1px solid rgb(53, 187, 187);
+  margin: 0 5%;
+  margin-top: 80px;
+  min-height: 600px;
+}
+.card-contact:hover {
+  box-shadow: 0 8px 16px 0 teal;
+}
+.sendMsg {
+  display: block;
+  border-right: 1px solid teal;
+  padding: 70px 60px;
+  width: 50%;
+}
+.envolope {
+  position: relative;
+  color:teal;
+}
+.sendMsg h4 {
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  justify-content: center;
+  color: teal;
+}
+.sendMsg .inputContact {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.sendMsg .textAreaCnt {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+}
+.contactBtn {
+  display: flex;
+  margin-top: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 70px;
+  color: white;
+  outline-style: none;
+}
+.contentContact {
+  display: flex;
+  justify-content: center;
+}
+.showAdrss {
+  padding-top: 100px;
+  width: 50%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  position: relative;
+  padding: 20px 50px;
+  display: flex;
+}
+.box .iconCtn {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 31px;
+  color:teal;
+}
+.adressCtn h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color:teal;
+}
+.adressCtn p {
+  margin-top: 20px;
+  opacity: 0.6;
+}
+.adressCtn {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: black;
+  flex-direction: column;
+  font-weight: 300;
+}
+.infoCtn {
+  color: rgb(25, 33, 77);
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .card-contact {
+    flex-direction: column;
+  }
+  .sendMsg {
+    width: 100%;
+    border: none;
+  }
+  .showAdrss {
+    padding-top: 20px;
+  }
+}
